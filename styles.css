@@ -1,0 +1,21 @@
+.background{
+    background-image: url(orangeBlack.jpg);
+    min-height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.curve{
+    border-radius: 8px;
+    background-color:rgb(120, 115, 107);
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logoBackground{
+      background-color: black;
+  }
