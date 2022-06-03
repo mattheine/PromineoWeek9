@@ -7,7 +7,17 @@
 }
 .curve{
     border-radius: 8px;
-    background-color:rgb(120, 115, 107);
+    box-shadow: 0 0 5px 0 ;
+     background: inherit;
+    backdrop-filter: blur(10px);
+}
+     
+#tableHolder{
+    height:28rem;
+    overflow:scroll;
+    margin-left:15px;
+    margin-right:15px;
+    margin-bottom:3rem;
 }
 
 .center {
