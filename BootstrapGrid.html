@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Grid</title>
+   <!--to use bootstrap add this link and the src at the bottom-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        div{
+            border-style:solid;
+            border-color:black;
+            padding: 5px;
+            margin:5px;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="container">
+        <strong>Container</strong>
+        <div class="row">
+            <div class="col-lg-6">
+            Content
+            </div>
+            <div class="col-md-4">
+                Content
+             </div>
+            <div class="col-sm-2">
+                Content
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+       <strong>Container Fluid</strong>
+        <div class="row">
+            <div class="col-lg">
+            Content
+            </div>
+            <div class="col-md">
+                Content
+             </div>
+            <div class="col-sm">
+                <div class="row">
+                    <div class="col-md-8">
+                        Heres my 8
+                    </div>
+                    <div class="col-md-4">
+                        Heres my 4
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="alert alert-primary" role="alert">
+    It Works!
+</div>
+
+<!--the following script is needed for some of the bootstrap components-->
+<script src=node_modules/jQuery/dist/jQuery.js></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

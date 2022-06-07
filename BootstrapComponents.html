@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Components</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        div{
+        border-style:solid;
+        border-color: black;
+        }
+    </style>
+</head>
+<!--Instead of having to style every element in CSS bootstrap is a library with predefined classes allowing us to add the class to any element and have the style already defined
+    
+https://getbootstrap.com/2.3.2/components.html-->
+
+<!--add a container class to the body to add in margin -->
+<body class="container">
+    <!--this is how we lay out alerts-->
+<div class="alert alert-primary">
+    Primary
+ </div>
+    
+<div class="alert alert-secondary">
+    Secondary
+</div>   
+
+ <div class="alert alert-success">
+    Success
+</div>    
+
+<div class="alert alert-danger">
+    Danger
+</div>   
+
+<div class="alert alert-warning">
+    Warning
+</div>
+
+<!-- How to lay out different buttons-->
+
+<button class="brn btn-primary"> Primary Button</button>
+<button class="brn btn-secondary"> Secondary Button</button>
+<button class="brn btn-success"> Success Button</button>
+<button class="brn btn-danger"> Danger Button</button>
+<button class="brn btn-warning"> Warning Button</button>
+<button class="brn btn-info"> Info Button</button>
+<button class="brn btn-light"> Light Button</button>
+<button class="brn btn-dark"> Dark Button</button>
+<button type="button" class="brn btn-link"> Link Button</button>
+<br><br>
+
+<!--how to layout badges-->
+
+<button class="brn btn-info">
+    Notifications <span class="badge badge-secondary">5</span>
+</button>
+
+<h3>Invite Friends <span class="badge badge-primary">NEW</span></h3>
+
+<!--How to style tables-->
+<table class="table table-dark table-hover">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Sam</td>
+        <td>Sam@gmail.com</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Tom</td>
+        <td>Tom@gmail.com</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Sally</td>
+        <td>Sally@gmail.com</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Tony</td>
+        <td>Tony@gmail.com</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Bruce</td>
+        <td>Bruce@gmail.com</td>
+    </tr>
+</table>
+<!--the following script is needed for some of the bootstrap components-->
+<script src=node_modules/jQuery/dist/jQuery.js></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
